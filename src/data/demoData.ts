@@ -54,6 +54,7 @@ export const DEMO_CONTACTS = [
   { id: "demo-contact-010", first_name: "Isabela", last_name: "Martins", email: "isabela@grupoalfa.com.br", phone: "(11) 99999-0010", title: "Analista de Compras", status: "lead" as const, lead_score: 42, company_id: "demo-company-002", owner_id: "demo-user-003", org_id: DEMO_ORG_ID, avatar_url: null, linkedin_url: null, created_at: daysAgo(15), updated_at: daysAgo(6) },
   { id: "demo-contact-011", first_name: "Thiago", last_name: "Barbosa", email: "thiago@industrianova.com.br", phone: "(11) 99999-0011", title: "CEO", status: "customer" as const, lead_score: 95, company_id: "demo-company-003", owner_id: DEMO_USER_ID, org_id: DEMO_ORG_ID, avatar_url: null, linkedin_url: null, created_at: daysAgo(47), updated_at: daysAgo(1) },
   { id: "demo-contact-012", first_name: "Larissa", last_name: "Neves", email: "larissa@saudetotal.com.br", phone: "(11) 99999-0012", title: "Coordenadora", status: "churned" as const, lead_score: 20, company_id: "demo-company-005", owner_id: "demo-user-002", org_id: DEMO_ORG_ID, avatar_url: null, linkedin_url: null, created_at: daysAgo(70), updated_at: daysAgo(30) },
+  { id: "demo-contact-013", first_name: "José", last_name: "Silva", email: "jose.silva@cliente.com.br", phone: "(11) 99999-0013", title: "Gerente Comercial", status: "customer" as const, lead_score: 75, company_id: "demo-company-001", owner_id: DEMO_USER_ID, org_id: DEMO_ORG_ID, avatar_url: null, linkedin_url: null, created_at: daysAgo(5), updated_at: daysAgo(1) },
 ];
 
 export const DEMO_DEALS = [
