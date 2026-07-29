@@ -2166,7 +2166,6 @@ export type Database = {
       }
       whatsapp_instances: {
         Row: {
-          api_key: string
           created_at: string
           created_by: string | null
           display_name: string
@@ -2185,7 +2184,6 @@ export type Database = {
           updated_at: string
         }
         Insert: {
-          api_key: string
           created_at?: string
           created_by?: string | null
           display_name?: string
@@ -2204,7 +2202,6 @@ export type Database = {
           updated_at?: string
         }
         Update: {
-          api_key?: string
           created_at?: string
           created_by?: string | null
           display_name?: string
