@@ -29,7 +29,7 @@ export function StepResend({ orgId, userId, userEmail, onComplete, setStepData }
         body: {
           api_key: apiKey.trim(),
           from_email: fromEmail.trim(),
-          from_name: fromName.trim() || "Baasi CRM",
+          from_name: fromName.trim() || "Globo Mil",
           test_to: userEmail,
           org_id: orgId,
         },
@@ -57,7 +57,7 @@ export function StepResend({ orgId, userId, userEmail, onComplete, setStepData }
         </div>
         <h2 className="text-xl font-bold">Configure o envio de emails</h2>
         <p className="mx-auto mt-1 max-w-md text-sm text-muted-foreground">
-          Necessário para enviar emails de sequências e automações pelo Baasi CRM.
+          Necessário para enviar emails de sequências e automações pelo Globo Mil.
           Não é necessário para a sincronização da sua caixa de entrada — isso é configurado no próximo passo.
         </p>
       </div>

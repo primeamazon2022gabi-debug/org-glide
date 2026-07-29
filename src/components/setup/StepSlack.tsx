@@ -72,7 +72,7 @@ export function StepSlack({ orgId, onComplete, setStepData }: SetupStepProps) {
     setSendingTest(true);
     try {
       await supabase.functions.invoke("slack-send-test", {
-        body: { org_id: orgId, channel, message: "🚀 Baasi CRM conectado! As notificações de vendas vão aparecer aqui." },
+        body: { org_id: orgId, channel, message: "🚀 Globo Mil conectado! As notificações de vendas vão aparecer aqui." },
       });
       setTestSent(true);
       toast({ title: "Mensagem de teste enviada!" });

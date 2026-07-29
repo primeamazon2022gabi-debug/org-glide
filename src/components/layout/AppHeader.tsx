@@ -44,7 +44,7 @@ export function AppHeader({ onOpenSearch, actions }: AppHeaderProps) {
     { label: "Nova Atividade", icon: ClipboardList, path: "/activities?action=new" },
   ];
 
-  const parts: { label: string; href?: string }[] = [{ label: "Baasi CRM", href: "/" }];
+  const parts: { label: string; href?: string }[] = [{ label: "Globo Mil", href: "/" }];
 
   if (location.pathname.startsWith("/deals/") && location.pathname !== "/deals") {
     parts.push({ label: "Negócios", href: "/deals" });

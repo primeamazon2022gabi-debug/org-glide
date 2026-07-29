@@ -125,7 +125,7 @@ export default function Login() {
           <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary">
             <Flame className="h-6 w-6 text-primary-foreground" />
           </div>
-          <h1 className="text-2xl font-bold tracking-tight">Baasi CRM</h1>
+          <h1 className="text-2xl font-bold tracking-tight">Globo Mil</h1>
           <p className="text-sm text-muted-foreground">Gerencie seus relacionamentos com inteligência</p>
         </div>
 

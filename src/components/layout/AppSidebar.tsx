@@ -111,7 +111,7 @@ export function AppSidebar() {
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
               <Flame className="h-4 w-4 text-primary-foreground" />
             </div>
-            {!collapsed && <span className="text-lg font-semibold tracking-tight">Baasi CRM</span>}
+            {!collapsed && <span className="text-lg font-semibold tracking-tight">Globo Mil</span>}
           </div>
         </SidebarHeader>
         <SidebarContent>

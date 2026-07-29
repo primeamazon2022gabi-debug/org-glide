@@ -271,7 +271,7 @@ function IntegrationsTab({ orgId, userId }: { orgId: string | null; userId?: str
           </DialogHeader>
           <div className="space-y-4">
             <p className="text-sm text-muted-foreground">
-              Para conectar o Slack ao Baasi CRM, siga os passos abaixo:
+              Para conectar o Slack ao Globo Mil, siga os passos abaixo:
             </p>
 
             <div className="space-y-3">
@@ -303,7 +303,7 @@ function IntegrationsTab({ orgId, userId }: { orgId: string | null; userId?: str
                 <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground text-xs font-bold">4</span>
                 <div>
                   <p className="text-sm font-medium">Volte aqui e clique em "Conectar"</p>
-                  <p className="text-xs text-muted-foreground">Após vincular o conector, o Baasi CRM detectará automaticamente seus canais</p>
+                  <p className="text-xs text-muted-foreground">Após vincular o conector, o Globo Mil detectará automaticamente seus canais</p>
                 </div>
               </div>
             </div>
@@ -684,7 +684,7 @@ function TrackingTab({ orgId }: { orgId: string | null }) {
   const [copied, setCopied] = useState(false);
 
   const trackingUrl = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/tracking`;
-  const snippet = `<!-- Baasi CRM Tracking -->
+  const snippet = `<!-- Globo Mil Tracking -->
 <script>
 (function() {
   var ORG_ID = "${orgId || 'SEU_ORG_ID'}";
